@@ -1,0 +1,53 @@
+.home-details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .header-container {
+        text-align: center;
+
+        h2 {
+            color: $color-primary;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            position: relative;
+            padding-bottom: 10px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: 0;
+                top: 130%;
+                width: 30%;
+                left: 35%;
+                height: 2px;
+                background: $color-primary;
+            }
+        }
+    }
+
+    .card {
+        &:hover {
+            box-shadow: 8px 12px 22px 0px rgb(0 0 0 / 10%);
+            -webkit-box-shadow: 8px 12px 22px 0px rgb(0 0 0 / 10%);
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+    }
+
+    .accordion-item {
+        border: none;
+    }
+
+    .list-group-item {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .book-only {
+        display: none !important;
+    }
+    .book-call {
+        display: block !important;
+    }
+}

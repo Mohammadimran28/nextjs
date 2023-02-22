@@ -1,0 +1,46 @@
+footer {
+    background-color: $color-primary;
+    color: $color-light;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    .svg-inline--fa {
+        color: $color-info;
+        height: 18px;
+    }
+
+    h3 {
+        color: $color-info;
+    }
+
+    .top-social-links {
+        .social-icon {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+
+    .list-group {
+        background: none;
+
+        .list-group-item {
+            background: none;
+            background-color: none;
+            border: none;
+            padding-bottom: 0px;
+            font-size: medium;
+
+            a {
+                text-decoration: none;
+                color: $color-light;
+                -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+
+                &:hover {
+                    color: $color-info;
+                }
+            }
+        }
+    }
+}

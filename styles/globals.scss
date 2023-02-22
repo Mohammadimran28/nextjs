@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+$theme-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "success": $color-success,
+  "warning": $color-warning,
+  "danger": $color-danger,
+  "info": $color-info,
+  "light": $color-light,
+  "dark": $color-dark,
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+@import "./home.scss";
+@import "./header.scss";
+@import "./about.scss";
+@import "./contact.scss";
+@import "./footer.scss";

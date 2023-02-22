@@ -1,0 +1,22 @@
+.section-contact {
+    .svg-inline--fa {
+        color: $color-primary;
+        height: 23px;
+    }
+
+    .top-social-links {
+        .social-icon {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .num-detail {
+        display: none !important;
+    }
+    .icon-only {
+        display: block !important;
+    }
+}

@@ -1,0 +1,68 @@
+.top-header {
+    background-color: $color-primary;
+    color: $color-light;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    a {
+        color: $color-light;
+        text-decoration: none;
+    }
+
+    .top-contact-detail {
+        .svg-inline--fa {
+            margin-right: 5px;
+            height: 18px;
+        }
+    }
+
+    .top-social-links {
+        .social-icon {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+// const [navbar, setNavbar] = React.useState(false);
+
+// const changeBackgroundColor = () => {
+//   if (window.scrollY >= 80) {
+//     setNavbar(true)
+//   } else {
+//     setNavbar(false)
+//   }
+// }
+
+// React.useEffect(() => {
+//   window.addEventListener('scroll', changeBackgroundColor);
+// }, []);
+
+// <Navbar expand="lg" collapseOnSelect className={navbar ? 'navbar active' : 'navbar'} >
+
+// .navbar {
+//     background: transparent;
+//     height: 80px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: 1.2rem;
+//     position: sticky;
+//     top: 0;
+//     z-index: 999;
+
+//     .active {
+//         background: #000;
+//     }
+// }

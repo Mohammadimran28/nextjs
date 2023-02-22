@@ -1,0 +1,68 @@
+.about-head {
+    text-align: center;
+    color: $color-primary;
+    h3 {
+        color: $color-primary;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 130%;
+            width: 30%;
+            left: 35%;
+            height: 2px;
+            background: $color-primary;
+        }
+    }
+}
+
+.about-section {
+    background-color: $color-light;
+
+    h3 {
+        color: $color-primary;
+        font-weight: 500;
+    }
+
+    .card-img {
+        border-radius: 0%;
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card {
+        border: none;
+    }
+
+    .card-text {
+        color: $color-primary;
+    }
+
+    .about {
+        color: $color-light;
+        margin-top: 106px;
+    }
+
+    button {
+        font-size: 17px;
+        font-weight: normal;
+        // font-family: "Ubuntu Condensed", sans-serif;
+        // padding: 12px 70px;
+        border-radius: 0;
+        color: #fff;
+        border: 2px solid #ffffff;
+        background-color: $color-primary;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .about {
+        margin-top: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        margin-top: 50px !important;
+    }
+}
